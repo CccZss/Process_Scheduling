@@ -1,0 +1,57 @@
+body,html,div,span,ul,li,a,h1,h2,h3,h4,h5,h6,button,input,select,th,tr,td,table,textarea,p{
+  padding:0;
+  margin:0;
+  font-family: 'Microsoft Yahei', 'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
+}
+body  {
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.fl{
+float:left;
+}
+.fr{
+float:right;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+#magtop{
+    padding-top: 110px;
+}
+input,textarea{
+  outline:none;  
+}
+input:focus,textarea:focus{
+  outline:none;  
+}
+
+/* 按钮样式 */
+.my-bt {
+  padding: 4px 18px;
+  border-radius: 32px;
+  outline: 0;
+  color: white;
+  border: 1px solid transparent;
+  background-color: #5ba3a7;
+  cursor: pointer;
+  transition: color .2s linear, background-color .2s linear,border .2s linear;
+}
+.my-bt:hover {
+  background-color: #409395;
+}
+.my-bt:active {
+  color: #f2f2f2;
+  background-color: #5ba3a7;
+  border-color: #5ba3a7;
+}
